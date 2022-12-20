@@ -1,0 +1,2 @@
+rootProject.name = "LoginRoomdatabase"
+include ':app'
