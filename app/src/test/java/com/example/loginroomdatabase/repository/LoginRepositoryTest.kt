@@ -30,11 +30,7 @@ class EmailTest {
         assertThat(result).isFalse()
     }
 
-    @Test
-    fun `invalid Password`() {
-        val result = Email.isValidPassword("123456")
-        assertThat(result).isFalse()
-    }
+  
 
 
 }
