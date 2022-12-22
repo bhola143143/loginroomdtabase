@@ -24,9 +24,6 @@ class EmailTest {
     }
 
 
-
-
-
     @Test
     fun emptyPwd() {
         val result = Email.isValidPassword("")
